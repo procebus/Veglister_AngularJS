@@ -1,0 +1,52 @@
+<div class="container modiflieu">
+
+	<p><a href="#/">retour liste</a></p>
+	<p><a href="#/place/{{id}}">retour {{titre}}</a></p>
+	
+	<form ng-submit="modifPlace()">
+		<div class="form-group">
+				<input type="text" placeholder="nom" 
+						class="form-control " />
+		</div>
+
+				 
+		<div class="form-group">
+			<input type="text" placeholder="{{date}}" 
+				 class="form-control" />
+		</div>
+		<div class="form-group">
+			<p>adresse</p>
+			<textarea class="form-control">{{adresse}}</textarea>
+		</div>
+
+		<div class="form-group">
+			
+		</div>
+		<div class="form-group">
+			<input type="text" placeholder="{{tel}}" 
+				 class="form-control" />
+		</div>
+		<div class="form-group">
+			<input type="text" placeholder="{{mail}}" 
+				 class="form-control" />
+		</div>
+		<div class="form-group">
+			<input type="text" placeholder="{{url}}" 
+				 class="form-control" />
+		</div>
+
+		<div class="form-group">
+			<p>Commentaires</p>
+			<textarea class="form-control">{{commentaires}}</textarea>
+		</div>
+		
+		
+		
+				
+		
+		
+		<input type="submit" value="valider" class="btn btn-default"/>
+
+
+	</form>
+</div>

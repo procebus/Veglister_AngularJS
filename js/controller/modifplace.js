@@ -1,14 +1,14 @@
-app.controller('PlaceController', ['$scope' , 'PlaceFactory', '$routeParams', function($scope, PlaceFactory, $routeParams){
-	//console.log();
+app.controller('modifPlaceController', ['$scope', 'PlaceFactory', '$routeParams', function($scope, PlaceFactory, $routeParams){
 
-	
+	$scope.loading = true;
+
 	
 	PlaceFactory.getPlace($routeParams.id).then(
 		function(place){
 			
 			$scope.id = place.id;
 			$scope.titre = place.nom;
-			//$scope.type = place.type;
+			
 			$scope.date = place.date;
 			$scope.adresse = place.adresse;
 			$scope.tel = place.tel;
@@ -21,8 +21,21 @@ app.controller('PlaceController', ['$scope' , 'PlaceFactory', '$routeParams', fu
 			alert(msg);
 		}
 	);
+	
+	
+	$scope.modifPlace = function(){
+		
+		PlaceFactory.modif($routeParams.id).then(
+		function(){
+			//
+		},
+		function(){
+			alert('error');
+		});
+
+		
+	};
 
 
 
-}]);
-
+}])
