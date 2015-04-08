@@ -1,0 +1,27 @@
+
+div.lieu {
+	border-collapse: separate;
+    border-spacing: 5px;
+	-webkit-box-shadow:6px 6px 6px black;
+    -ms-box-shadow:6px 6px 6px black;
+    box-shadow:6px 6px 6px black;
+    border-radius : 8px 8px 8px 8px;
+    background-color: #341600;
+    width:75%;
+    margin-left : 20px;
+    
+}
+
+
+.cadreMiniChantier {
+    border-collapse: separate;
+    border-spacing: 5px;
+    background-color: #8EBAFF;
+    -webkit-box-shadow:6px 6px 6px black;
+    -ms-box-shadow:6px 6px 6px black;
+    box-shadow:6px 6px 6px black;
+    border-radius : 8px 8px 8px 8px;
+    display : inline-block;
+    width:25%;
+    margin-top : 10px;
+}
