@@ -1,0 +1,26 @@
+ [
+        {
+            "id": "1",
+            "nom": "test1",
+            "type": "magasin",  
+            "date": "2014-08-21",
+            "adresse": "40",
+            "tel": "320114477",
+            "mail": "test@gmail.com",
+            "url": "http:\/\/raahbeta.net",
+            "commentaire": "en test"
+        },
+        {
+            "id": "2",
+            "nom": "lalaal",
+            "type": "magasin",
+            "date": "2014-08-04",
+            "adresse": "500",
+            "tel": "651447788",
+            "mail": "sdsds@tr.de",
+            "url": "htp:\/\/hhh.fr",
+            "commentaire": "erererrereer"
+        }
+]
+
+
