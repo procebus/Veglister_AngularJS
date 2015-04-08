@@ -1,0 +1,12 @@
+<div ng-show="loading">Chargement ....</div>
+<div ng-hide="loading">
+	<div ng-repeat="place in places">
+		<h1>{{place.nom}}</h1>
+		<p>{{place.date}}</p>
+		<p>
+			<a href="#/place/{{place.id}}">afficher</a>
+		</p>
+					
+
+	</div>
+</div>
