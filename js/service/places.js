@@ -44,6 +44,16 @@ app.factory('PlaceFactory', function($http, $q, $timeout) {
 			});
 			return deferred.promise;
 			return place;
+		},
+		add : function(place){
+			var deferred = $q.defer();
+			deferred.resolve();
+			return deferred.promise;
+		},
+		modif : function(id){
+			var deferred = $q.defer();
+			deferred.resolve();
+			return deferred.promise;
 		}
 	}
 	return factory;
